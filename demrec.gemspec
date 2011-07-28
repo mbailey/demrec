@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "demrec"
 
-  s.add_dependency('deprec-core', '>= 3.1.8')
+  s.add_dependency('deprec-core', '>= 3.1.9')
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
