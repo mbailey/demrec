@@ -15,8 +15,10 @@ Start a new gem
     rake install
 
 
-Add recipes
------------
+Add tasks
+---------
+
+You can explore the source of this 'demrec' to see examples of tasks.
 
     mkdir demrec/lib/demrec/recipes
     touch deprec/lib/demrec/db.{rake,rb} # Add tasks later
