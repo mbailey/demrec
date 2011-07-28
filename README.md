@@ -31,3 +31,14 @@ Add recipes
         import t 
       }
     end
+
+
+Add to your project
+-------------------
+
+    echo "gem 'demrec'" >> Gemfile
+
+    echo "require 'demrec'" >> Rakefile
+    echo "require 'demrec'" >> Capfile
+
+    # Those last two can be omitted under certain circumstances.
