@@ -4,7 +4,7 @@ Capistrano::Configuration.instance(:must_exist).load do
 
       desc "Backup the database"
       task :backup do
-        puts "Capistrano is backing up db"
+        puts "Backing up database with Capistrano"
       end
 
     end

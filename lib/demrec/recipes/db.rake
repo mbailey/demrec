@@ -3,7 +3,7 @@ namespace :demrec do
 
     desc "Backup the database"
     task :backup do
-      puts "Backing up DB with rake!"
+      puts "Backing up database with rake"
     end
   end
 end
